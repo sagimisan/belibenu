@@ -1,0 +1,69 @@
+Arguments: 
+  E:\תוכנות\node.exe C:\Users\sagi misan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\sagi misan\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Microsoft Emulator Manager\1.0;C:\Program Files\dotnet;E:\תוכנות\gradle-6.6.1\bin;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\sagi misan\AppData\Local\Android\Sdk\build-tools\30.0.2;C:\Python34\Scripts;E:\תוכנות;C:\Program Files (x86)\PuTTY;C:\Users\sagi misan\OneDrive\מסמכים\mongosh-1.4.1-win32-x64\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Microsoft Emulator Manager\1.0;C:\Program Files\dotnet;E:\תוכנות;E:\תוכנות\gradle-6.6.1\bin;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\sagi misan\AppData\Local\Android\Sdk\build-tools\30.0.2;C:\Python34\Scripts;C:\Users\sagi misan\AppData\Local\Programs\Python\Launcher;C:\Users\sagi misan\AppData\Local\Microsoft\WindowsApps;C:\Python37\Scripts;C:\Users\sagi misan\AppData\Local\GitHubDesktop\bin;C:\Users\sagi misan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sagi misan\AppData\Local\gitkraken\bin;C:\Users\sagi misan\AppData\Roaming\npm;C:\Users\sagi misan\AppData\Local\Programs\mongosh;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\sagi misan\OneDrive\שולחן העבודה\belibenu\node_modules\node-sass\vendor\win32-x64-93\binding.node'
+
+npm manifest: 
+  {
+    "name": "elio-misan",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "main": "src/index.js",
+      "license": "ISC",
+    "dependencies": {
+      "@cross.team/gatsby-theme-material-ui":"1.1.0",
+      "@material-ui/core": "4.9.14",
+      "@material-ui/icons": "4.9.1",
+      "@smooth-ui/core-sc": "11.1.5",
+      "google-font": "1.0.1",
+      "google-panorama-tiles": "1.0.3",
+      "light_box": "1.0.2",
+      "lightbox": "0.5.0",
+      "lightbox.js": "1.0.2",
+      "netlify-cli": "12.10.0",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-image-lightbox": "5.1.4",
+      "react-images": "1.2.0-beta.7",
+      "react-photo-gallery": "8.0.0",
+      "react-router-dom": "5.2.0",
+      "react-scripts": "3.0.1",
+      "sass-loader":"13.2.0",
+      "sass":"1.58.0"
+    },
+    "devDependencies": {
+      "typescript": "3.8.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

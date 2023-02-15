@@ -18,6 +18,7 @@ import HomeIcon from "@material-ui/icons/Home";
 import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary";
 import MenuIcon from "@material-ui/icons/Menu";
 import MenuBookIcon from "@material-ui/icons/MenuBook";
+import Edut from "../Story/Edut";
 const drawerWidth = 240;
 
 function SideBar(props) {
@@ -65,6 +66,14 @@ function SideBar(props) {
       icon: <MenuBookIcon />,
       onClick: () => {
         history.push("/StoryHebrow");
+        handleDrawerClose();
+      }
+    },
+    {
+      text: "עדות",
+      icon: <MenuBookIcon />,
+      onClick: () => {
+        history.push("/Edut");
         handleDrawerClose();
       }
     },

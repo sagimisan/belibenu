@@ -29,7 +29,7 @@ export default function ImageAvatars() {
       />
       <div className="avatarTXT">
         <label className="labelAvatarTXT">אליהו מיזן</label>
-        <span>09/09/1936-15/02/2013</span>
+        <span>09/09/1939-15/02/2013</span>
       </div>
     </div>
   );

@@ -8,6 +8,7 @@ import Kadish from "../tfilot/Kadish";
 import Tehilim from "../tfilot/Tehilim";
 import StoryHebrow from "../Story/StoryHebrow";
 import StoryItaly from "../Story/StoryItaly";
+import Edut from "../Story/Edut";
 
 export default function Main() {
   return (
@@ -35,6 +36,11 @@ export default function Main() {
           exact
           path="/StoryItaly"
           render={(props) => <StoryItaly {...props} />}
+        />
+        <Route
+          exact
+          path="/Edut"
+          render={(props) => <Edut {...props} />}
         />
       </Switch>
     </div>
