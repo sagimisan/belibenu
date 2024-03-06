@@ -24,7 +24,8 @@ body{
    
   }
   .Main{
-    margin-top: 90px;   
+    margin-top: 90px;  
+    padding: 0 5px; 
     .homePage{
       padding: 20px;
       direction: rtl;
@@ -99,9 +100,8 @@ body{
     .tfilot{    
       line-height: 25px;
       direction: rtl;
-      padding: 0  20px 60px 20px ;
+      // padding: 0  20px 60px 20px ;
       .label{
-
         font-size: 1.2rem;
         font-weight: bold;
       }
@@ -119,7 +119,7 @@ body{
       }
       .kadishAzcara{
         span{
-          line-height: 25px;
+          // line-height: 25px;
           font-weight: normal;
           // display: contents;
           }
